@@ -1,14 +1,14 @@
-import { Client, MessageMedia, LocalAuth } from 'whatsapp-web.js';
-import express from 'express';
-import { body, validationResult } from 'express-validator';
-import socketIO from 'socket.io';
-import qrcode from 'qrcode';
-import http from 'http';
-import fs from 'fs';
-import { phoneNumberFormatter } from './helpers/formatter';
-import fileUpload from 'express-fileupload';
-import axios from 'axios';
-import mime from 'mime-types';
+const { Client, MessageMedia, LocalAuth } = require('whatsapp-web.js');
+const express = require('express');
+const { body, validationResult } = require('express-validator');
+const socketIO = require('socket.io');
+const qrcode = require('qrcode');
+const http = require('http');
+const fs = require('fs');
+const { phoneNumberFormatter } = require('./helpers/formatter');
+const fileUpload = require('express-fileupload');
+const axios = require('axios');
+const mime = require('mime-types');
 
 const port = process.env.PORT || 3333;
 
