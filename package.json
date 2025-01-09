@@ -12,7 +12,7 @@
     "whatsapp-api",
     "node.js"
   ],
-  "author": "Nur Muhammad",
+  "author": "Lingga Pranasucitra",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.20.0",
